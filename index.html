@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Portafolio- Juan Fajardo</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="assets/img/perfil.jpeg"></src>
+
+                <h1>Juan C Fajardo F</h1>
+                <p>Desarrollador JR</p>
+                <p> FULL STACK JAVASCRIPT </p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Acerca de Mi</a>
+                <a href="#">Pokemon</a>
+                <a href="#">Rick and Morty</a>
+
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="acerca de mi" data-etiquetas="acerca de mi" data-descripcion="1.- Programador Junior Full Satck Javascript, egresado de la Academia Desafio Latam, capacitado en las áreas de desarrollo tanto Front End como Back End, con manejo de JAVASCRIPT, HTML, CSS, NODE.JS, EXPRESS, JQUERY, HANDLEBARS, BOOSTRAP, SQL, POSTGRESQL, ANGULAR, manejo de GIT, ZOOM, MEET, entre otras y con un alto sentido de pertenencia, con Capacidad para trabajar bajo presión, en equipo, proactivo, autotidacta y dinámico, lo cual me permite encajar perfectamente en cualquier equipo de trabajo garantizando la productividad y calidad del servicio/producto terminado">
+                <div class="item-contenido">
+                    <img src="assets/img/programacion.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" data-categoria="pokemon" data-etiquetas="pokemon" data-descripcion="2.- Consumo de PokeApi, con uso de Javascript, jquery, boostrap y canvas">
+
+                <div class="item-contenido">
+                    <img src="assets/img/pokemon.png" alt=" ">
+                </div>
+
+            </div>
+
+
+            <div class="item " data-categoria="rick and morty" data-etiquetas="rick and morty Api" data-descripcion="4.- Sitio  para consumir datos desde
+            una API, para lo cual se consultara la URL de “Rick and Morty”, la cual nos devolverá la solicitada, la cual sera, obtener todos los personajes y el detalle de cada uno de
+            ellos(Personajes y Detalles), para ello se realizo una función global autoejecutable (IIFE), que realice la conexión mediante funciones privadas a la API e
+            instanciar un nuevo objeto perteneciente a una clase hija xxxxxxx.">
+
+                <div class="item-contenido">
+                    <img src="assets/img/rink and morty.png" alt=" ">
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img ">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src=" " alt=" ">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://www.github.com/JUANCHI1403" target="_blank" class="github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.linkedin.com/in/juancarlosfajardofernandez" target="_blank" class="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="creado-por">
+                <p>Creado por
+                    <href href="#">Juan Fajardo</href>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
